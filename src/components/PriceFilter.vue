@@ -40,6 +40,9 @@
           :dotSize="16"
           :width="192"
           @drag-end="dragend"
+          :process-style="{ backgroundColor: '#279fb9', borderRadius: '15px' }"
+          :dot-style="{ backgroundColor: '#279fb9' }"
+          :rail-style="{ backgroundColor: '#f5f5f5', borderRadius: '2px' }"
         ></vue-slider>
       </div>
       <div class="panel-body">
